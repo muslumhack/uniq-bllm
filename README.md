@@ -23,7 +23,7 @@ This is a simple Flask web application that uses the GPT-4All model to generate 
     pip install -r requirements.txt
     ```
 
-3. Download the GPT-4All model file (`mpt-7b-chat-merges-q4_0.gguf`) and place it in the project directory.
+3. Download the GPT-4All model file from [https://gpt4all.io/index.html](https://gpt4all.io/index.html) and place it in the project directory.
 
 ## Usage
 
@@ -58,4 +58,5 @@ This is a simple Flask web application that uses the GPT-4All model to generate 
 - `static/`: Static files (CSS, JavaScript, etc.).
 - `gpt4all.py`: GPT-4All model integration file.
 
+Make sure to download the GPT-4All model file from [https://gpt4all.io/index.html](https://gpt4all.io/index.html) and place it in the same directory as `app.py`.
 Feel free to customize the app according to your requirements.
