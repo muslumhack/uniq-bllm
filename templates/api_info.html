@@ -1,1 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>API Information</title>
+    <link rel="stylesheet" href="/static/style.css" />
+  </head>
+  <body>
+    <header>
+      <!-- Header content -->
+    </header>
+    <main>
+      <h1>Chatbot API</h1>
+      <p>Chatbot API'si, kullanıcıdan alınan metne karşılık gelen cevabı döndürmek için kullanılabilir.</p>
+      
+      <h2>API Endpoint</h2>
+      <pre>/api</pre>
 
+      <h2>Method</h2>
+      <pre>POST</pre>
+
+      <h2>Request Format</h2>
+      <pre>
+{
+  "msg": "Kullanıcının sorduğu soru"
+}
+      </pre>
+
+      <h2>Response Format</h2>
+      <pre>
+{
+  "response": "Chatbot'un verdiği cevap"
+}
+      </pre>
+
+      <h2>Örnek Kullanım</h2>
+      <pre>
+import requests
+
+data = {
+  "msg": "Merhaba Chatbot!"
+}
+
+response = requests.post("https://localhost:5000/api", json=data)
+print(response.json()["response"])
+      </pre>
+    </main>
+    <footer>
+      <!-- Footer content -->
+    </footer>
+  </body>
+</html>
