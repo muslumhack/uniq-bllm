@@ -51,6 +51,15 @@ This is a simple Flask web application that uses the GPT-4All model to generate 
     http://localhost:5000/get?msg=Your%20message%20here
     ```
 
+## Update Model Integration Code
+
+- Open the `app.py` file and locate the line where the GPT-4All model is initialized. Replace the existing model file name with the name of the model you downloaded.
+
+    ```python
+    # Update the model file name
+    model = GPT4All("your-downloaded-model-file.gguf")
+    ```
+
 ## Folder Structure
 
 - `app.py`: Main Flask application file.
@@ -58,5 +67,5 @@ This is a simple Flask web application that uses the GPT-4All model to generate 
 - `static/`: Static files (CSS, JavaScript, etc.).
 - `gpt4all.py`: GPT-4All model integration file.
 
-Make sure to download the GPT-4All model file from [https://gpt4all.io/index.html](https://gpt4all.io/index.html) and place it in the same directory as `app.py`.
+Make sure to download the GPT-4All model file from [https://gpt4all.io/index.html](https://gpt4all.io/index.html) and replace the existing model file name in the `app.py` file.
 Feel free to customize the app according to your requirements.
