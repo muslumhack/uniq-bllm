@@ -1,4 +1,4 @@
-# Flask GPT-4All Chatbot
+# Uniq-b GPT4 Clone With Python Gui
 
 This is a simple Flask web application that uses the GPT-4All model to generate responses for user input.
 
@@ -13,7 +13,7 @@ This is a simple Flask web application that uses the GPT-4All model to generate 
 1. Clone this repository:
 
     ```bash
-    git clone https://github.com/your-username/your-repo.git](https://github.com/muslumhack/uniq-bllm.git
+    git clone https://github.com/muslumhack/uniq-bllm.git
     cd your-repo
     ```
 
