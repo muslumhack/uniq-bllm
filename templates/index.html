@@ -1,1 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ChatBot</title>
+    <link rel="stylesheet" href="/static/style.css" />
+    <script defer src="/static/app.js"></script>
+  </head>
+  <body>
+    <header>
+      <div class="heada">
+        <a href="#">Gmail</a>
+        <a href="#">Images</a>
+	<a href="/api_info">API Information</a>
+
+      </div>
+    </header>
+    <main>
+      <div class="content">
+      <img class="logo">
+ <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 40" width="120" height="40">
+        <text x="0" y="35" font-size="35" font-weight="bold" fill="black">u</text>
+        <text x="20" y="35" font-size="35" font-weight="bold" fill="black">n</text>
+        <text x="40" y="35" font-size="35" font-weight="bold" fill="black">i</text>
+        <text x="60" y="35" font-size="35" font-weight="bold" fill="black">q</text>
+        <text x="80" y="35" font-size="35" font-weight="bold" fill="black">:</text>
+    </svg>
+      </div>
+   
+      <div class="searchbar">
+      <div class="icon">
+    <svg class="icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+      <path d="M9.5 3C5.91 3 3 5.91 3 9.5S5.91 16 9.5 16 16 13.09 16 9.5 13.09 3 9.5 3zm0 13C6.47 16 4 13.53 4 10.5S6.47 5 9.5 5 15 7.47 15 10.5 12.53 16 9.5 16zm5.5-1.5h-2v-5h-5V6h5v5h2V6h5v1.5z" fill="currentColor"/>
+    </svg>
+  </div>
+   <input type="text" id="send" autocomplete="off" name="q" placeholder="Write Anything To Talk...">
+</div>
+    </main>
+	  
+	  
+	  
+	   <div class="answer-container">
+	    <h3>Answer</h3>
+	    <div id="response" class="answer-box"></div>
+	  </div>
+	 
+		  
+     <footer>
+      <div id="about">
+        <a href="#">About</a>
+        <a href="#">Privacy</a>
+        <a href="#">Terms</a>
+        <a href="#">Settings</a>
+      </div>
+    </footer>
+  </body>
+</html>
 
