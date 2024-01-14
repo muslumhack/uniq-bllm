@@ -37,7 +37,7 @@ This is a simple Flask web application that uses the GPT-4All model to generate 
 
 2. Visit `http://localhost:5000` in your web browser to interact with the chatbot.
 
-   ## Local and Self-Contained
+## Local and Self-Contained
 
 - The Flask GPT-4All Chatbot operates locally, requiring no external API services.
 - It leverages the power of GPT-4All's internal models to generate responses directly.
