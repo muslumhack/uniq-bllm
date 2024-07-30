@@ -1,4 +1,4 @@
-# Uniq-b CHATGPT Clone With Python Gui
+# Uniq-b With Python Gui
 
 This is a simple Flask web application that uses the GPT-4All model to generate responses for user input.
 ![GitHub ss](images/Screenshot_2024-01-13_11_01_40.png)
